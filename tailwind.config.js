@@ -16,7 +16,11 @@ module.exports = {
       'grey': '#C4C4C4',
       'black': '#000000',
       'tc-back': '#F7F7F7',
-      'tc-gradient': 'rgba(76, 201, 240, 0,22)'
+      'tc-gradient': 'rgba(76, 201, 240, 0,22)',
+      'signup' : '#09011C',
+      'tc-red': '#EA2220',
+      'tc-yellow': '#FCCE2B',
+      'tc-green': '#7FCF5A',
     },
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui',],
@@ -28,7 +32,14 @@ module.exports = {
       boxShadow: {
         'btn' : '0px 6px 4px rgba(58, 12, 163, 0.2)',
         'btn2': '0px 5px 4px rgba(0, 0, 0, 0.25)'
+      },
+      height: {
+        'small': '1px',
+      },
+      gridTemplateColumns: {
+        'search': 'repeat(auto-fit, minmax(300px, 1fr))'
       }
+
     },
   },
   plugins: [],

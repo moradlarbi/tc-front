@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Partenaires = () => {
+const PopUpProduit = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Partenaires = () => {
     )
 }
 
-export default Partenaires
+export default PopUpProduit
